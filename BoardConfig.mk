@@ -19,6 +19,9 @@
 
 TARGET_OTA_ASSERT_DEVICE := e2nam
 
+# Bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/e2nam/bluetooth
+
 # Kernel
 TARGET_KERNEL_CONFIG := cyanogenmod_e2nam_defconfig
 
